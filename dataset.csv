@@ -1,0 +1,78 @@
+topic,question,answer,wrong1,wrong2,wrong3,hint
+Differentiation,Differentiate xⁿ,nxⁿ⁻¹,xⁿ⁺¹/(n+1),nxⁿ,(n−1)xⁿ,Multiply by the power then reduce the power by 1
+Differentiation,d/dx of a constant k,0,1,k,x,
+Differentiation,d/dx of x,1,0,x,c,
+Differentiation,d/dx of 5x³,15x²,5x²,15x³,8x²,
+Differentiation,d/dx of 3x² − 4x + 7,6x − 4,6x + 7,3x − 4,6x² − 4x,Differentiate term by term
+Differentiation,d/dx of 1/x²,−2x⁻³,−2x⁻¹,2x⁻³,x⁻¹,Rewrite as x⁻² first
+Differentiation,d/dx of √x,1/(2√x),2√x,1/√x,½√x,Rewrite as x^½ first
+Differentiation,d/dx of 4/x,−4/x²,4/x²,−4x,4x⁻¹,
+Differentiation,d/dx of 2x^(3/2),3x^(1/2),2x^(1/2),3x^(3/2),(3/2)x^(3/2),
+Differentiation,d/dx of (x + 2)(x − 3),2x − 1,x² − x − 6,2x + 1,x − 1,Expand first
+Differentiation,d/dx of (x² + 3x)/x,1,x + 3,2x + 3,3,Simplify before differentiating
+Differentiation,Gradient function of y = 2x⁴,8x³,2x³,8x⁴,6x³,
+Differentiation,What does dy/dx represent?,The gradient of the curve at a point,The area under the curve,The y-intercept,The value of y,
+Differentiation,Differentiation from first principles,"f′(x) = lim (h→0) [f(x+h) − f(x)]/h","f′(x) = lim (h→0) [f(x) − f(x+h)]/h",f′(x) = f(x+h) − f(x),"f′(x) = lim (h→∞) [f(x+h) − f(x)]/h",Gradient of a chord as h shrinks to 0
+Differentiation,Notation for the second derivative,d²y/dx²,(dy/dx)²,dy²/dx,d/dx²,
+Differentiation,Rate of change of volume V with respect to time t,dV/dt,dt/dV,V/t,d²V/dt²,
+Differentiation,Gradient of y = x³ at x = 2,12,8,6,3,Differentiate then substitute
+Differentiation,Gradient of y = x² − 5x at x = 3,1,−1,4,6,dy/dx = 2x − 5
+Differentiation,As h → 0 the chord between two points becomes,The tangent,The normal,A vertical line,The x-axis,
+Differentiation,A positive gradient means the curve is,Rising (going up left to right),Falling,Flat,Undefined,
+Differentiation,Another way to write f′(x),dy/dx,∫f(x) dx,f(x)/x,Δy,
+Tangents & Normals,Equation of the tangent at (a; f(a)),y − f(a) = f′(a)(x − a),y − a = f(a)(x − f′(a)),y = f′(a)x,y − f′(a) = f(a)(x − a),Use y − y₁ = m(x − x₁)
+Tangents & Normals,Gradient of the normal if tangent has gradient m,−1/m,m,−m,1/m,Perpendicular lines multiply to −1
+Tangents & Normals,Equation of the normal at (a; b) if tangent has gradient m,y − b = −(1/m)(x − a),y − b = m(x − a),y + b = −m(x + a),y − b = (1/m)(x − a),
+Tangents & Normals,Tangent to y = x² at (3; 9),y = 6x − 9,y = 6x + 9,y = 3x,y = 9x − 6,Gradient is 2x = 6
+Tangents & Normals,Normal to y = x² at (1; 1),y = −½x + 3/2,y = −2x + 3,y = ½x + ½,y = 2x − 1,Tangent gradient is 2
+Tangents & Normals,Two lines are perpendicular when,m₁m₂ = −1,m₁ = m₂,m₁ + m₂ = 0,m₁m₂ = 1,
+Tangents & Normals,A tangent parallel to the x-axis has,dy/dx = 0,dy/dx = 1,dy/dx undefined,y = 0,
+Tangents & Normals,Gradient of y = x³ − 3x at x = 1,0,1,−3,3,
+Tangents & Normals,Gradient of y = x² − 6x is zero when,x = 3,x = −3,x = 6,x = 0,
+Stationary Points,Condition for a stationary point,dy/dx = 0,d²y/dx² = 0,y = 0,dy/dx = 1,
+Stationary Points,Stationary point is a minimum when,d²y/dx² > 0,d²y/dx² < 0,d²y/dx² = 0,dy/dx > 0,Curve is concave up
+Stationary Points,Stationary point is a maximum when,d²y/dx² < 0,d²y/dx² > 0,d²y/dx² = 0,dy/dx < 0,Curve is concave down
+Stationary Points,If d²y/dx² = 0 at a stationary point,Inconclusive – check gradient either side,It is a minimum,It is a maximum,It is a point of inflection,
+Stationary Points,f is increasing when,f′(x) > 0,f′(x) < 0,f″(x) > 0,f(x) > 0,
+Stationary Points,f is decreasing when,f′(x) < 0,f′(x) > 0,f″(x) < 0,f(x) < 0,
+Stationary Points,Stationary point of y = x² − 4x + 1,"(2, −3)","(−2, −3)","(2, 3)","(4, 1)",dy/dx = 2x − 4
+Stationary Points,Nature of the stationary point of y = x² − 4x + 1,Minimum,Maximum,Point of inflection,No stationary point,
+Stationary Points,x-values of stationary points of y = x³ − 12x,x = ±2,x = ±4,x = ±6,x = 0 only,3x² − 12 = 0
+Stationary Points,y = −x² + 6x has a maximum at,x = 3,x = −3,x = 6,x = 0,
+Stationary Points,y = x³ at x = 0 is a,Stationary point of inflection,Minimum,Maximum,Non-stationary point,
+Stationary Points,Steps to solve an optimisation problem,"Form expression, differentiate, set = 0, solve, check nature","Differentiate, integrate, set = 0, solve","Set = 0, integrate, substitute","Plot the graph and read off the value",
+Stationary Points,A quadratic with positive x² coefficient has a,Minimum turning point,Maximum turning point,Two turning points,Point of inflection,
+Stationary Points,Maximum value of y = 5 − (x − 2)²,5,2,−5,7,
+Integration,Integrate xⁿ,"xⁿ⁺¹/(n+1) + c, n ≠ −1",nxⁿ⁻¹ + c,xⁿ⁺¹ + c,xⁿ/(n+1) + c,Increase power by 1 then divide by it
+Integration,Why do we add + c?,Derivative of a constant is 0 so it is lost,To make the answer positive,To balance the powers,It is the area,
+Integration,∫ 6x² dx,2x³ + c,6x³ + c,12x + c,3x³ + c,
+Integration,∫ 1/x² dx,−1/x + c,1/x + c,ln x² + c,−2/x³ + c,Rewrite as x⁻²
+Integration,∫ √x dx,(2/3)x^(3/2) + c,(3/2)x^(3/2) + c,½x^(1/2) + c,(2/3)x^(1/2) + c,
+Integration,Integration is the reverse of,Differentiation,Substitution,Expansion,Factorisation,
+Integration,Find c given a point on the curve,Substitute the coordinates into the integrated equation,Differentiate again,Set dy/dx = 0,Set y = 0,
+Integration,∫ (3x² + 2x − 5) dx,x³ + x² − 5x + c,6x + 2 + c,x³ + 2x² − 5x + c,3x³ + x² − 5x + c,
+Integration,∫ 4 dx,4x + c,4 + c,0 + c,2x² + c,
+Integration,∫ x(x + 2) dx,x³/3 + x² + c,x² + 2x + c,x³ + x² + c,x²/2 + 2x + c,Expand first
+Integration,∫ x⁻³ dx,−1/(2x²) + c,−3x⁻⁴ + c,−2x⁻² + c,x⁻²/2 + c,
+Integration,dy/dx = 2x and the curve passes through (1; 3),y = x² + 2,y = x² + 3,y = 2x + 1,y = x² + 1,y = x² + c; 3 = 1 + c
+Definite Integrals,Evaluate ∫ₐᵇ f(x) dx,F(b) − F(a),F(a) − F(b),F(b) + F(a),f(b) − f(a),Upper limit minus lower limit
+Definite Integrals,∫₀² 3x² dx,8,6,12,4,[x³] from 0 to 2
+Definite Integrals,∫₁³ 2x dx,8,6,10,4,[x²] from 1 to 3
+Definite Integrals,∫₀¹ x dx,½,1,2,¼,
+Definite Integrals,∫₁⁴ √x dx,14/3,7/3,16/3,2,
+Definite Integrals,Area under y = f(x) between x = a and x = b,∫ₐᵇ f(x) dx,f(b) − f(a),f′(b) − f′(a),∫ f′(x) dx,
+Definite Integrals,Area below the x-axis gives an integral that is,Negative (take modulus for area),Positive,Zero,Undefined,
+Definite Integrals,Area between a curve and a line,∫ (top − bottom) dx,∫ (bottom − top) dx,∫ top dx + ∫ bottom dx,∫ top × bottom dx,
+Definite Integrals,Do you need + c in a definite integral?,No – it cancels out,Yes always,Only for negative areas,Only if limits are 0,
+Definite Integrals,Area between y = x² and the x-axis from x = 0 to 3,9,27,18,3,[x³/3] from 0 to 3
+Definite Integrals,∫ₐᵃ f(x) dx,0,f(a),a,1,
+Definite Integrals,Reversing the limits of an integral,Changes the sign,Doubles it,Does nothing,Makes it zero,
+Definite Integrals,Area bounded by y = 4 − x² and the x-axis,32/3,16/3,16,8,Limits are −2 and 2
+Definite Integrals,Limits for area between curve and line come from,Solving them simultaneously,Differentiating both,Integrating both,Setting y = 0,
+Applications,If s is displacement then ds/dt is,Velocity,Acceleration,Distance,Jerk,
+Applications,If v is velocity then dv/dt is,Acceleration,Displacement,Speed,Distance,
+Applications,Displacement from velocity: s =,∫ v dt,dv/dt,v × t²,d²v/dt²,
+Applications,Velocity from acceleration: v =,∫ a dt,da/dt,a/t,∫ s dt,
+Applications,s = t³ − 6t² gives velocity v =,3t² − 12t,t³ − 6t,3t² − 6t,6t − 12,
+Applications,Particle is at rest when,v = 0,a = 0,s = 0,t = 0,
+Applications,Velocity v = 6t − 2: acceleration a =,6,6t,3t² − 2t,−2,
